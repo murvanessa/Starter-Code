@@ -3,7 +3,7 @@
 console.log('-- loading: findLongestWordLength');
 
 
-function findLongestWordLength() { }
+function findLongestWordLength() {}
 
 
 {
@@ -41,12 +41,23 @@ function findLongestWordLengthHandler() {
   debugger;
 
   // read user input
+  const input1 = document.getElementById('input1').value;
+
+  const finalResult1 = document.getElementById('finalResult1')
+  
 
   // core logic
-  const result = findLongestWordLength(str);
 
-  // display for use
+  if( typeof input1 === 'string'){
+       let result = input1
+  
+       // display for use
+        finalResult1.innerHTML = result.length;
+         console.log(result);
+    }else{
+      alert('put invalid text')
+    }
 
   // log for developers
+  console.log(finalResult1);
 }
-
