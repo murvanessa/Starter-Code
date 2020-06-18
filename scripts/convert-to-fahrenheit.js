@@ -3,7 +3,10 @@
 console.log('-- loading: convertToFahrenheit');
 
 
-function convertToFahrenheitHandler(){}
+function convertToFahrenheit(input){
+
+  return (input * 9/5) + 32;
+  }
 
 {
   console.log('-- testing: convertToFahrenheit ');
@@ -48,7 +51,7 @@ function convertToFahrenheitHandler() {
   const input = document.getElementById('input').value;
   const finalResult = document.getElementById('finalResult');
   
-  // core logic
+   //core logic
   const convertToFahrenheit = (input * 9/5) + 32;
   let result = convertToFahrenheit;
 
