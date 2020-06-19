@@ -78,13 +78,15 @@ the wireframe for this project []().
 ### HTML
 
 - Add the script inside the html page
+- link function in the button
+
 
 ### CSS
 
 - Style 
 
 ### JS
-- Complete the exercise and see if it is correct by using js tutor
+- Complete the exercise and see if it is correct by using js tutor or debugging in the browser.  
 
 ## 4. User story: find-longest-word-length
 
@@ -101,13 +103,14 @@ the wireframe for this project []().
 ### HTML
 
 - Add the script inside the html page
+- link function in the button
 
 ### CSS
 
 - Style 
 
 ### JS
-- Complete the exercise and see if it is correct by using js tutor
+- Complete the exercise and see if it is correct by using js tutor or debugging in the browser. 
 
 ## 5. User story: repeat-string-num-times
 > assigned to Murielle
@@ -123,6 +126,7 @@ the wireframe for this project []().
 ### HTML
 
 - Add the script inside the html page
+- link function in the button
 
 ### CSS
 
