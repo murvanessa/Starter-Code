@@ -4,15 +4,42 @@
 <head>
   <meta charset='utf8'>
   <title>Debugging: project, week 1</title>
+  <link rel="stylesheet" href="style.css">
   <!-- Leave this here!  It renders the review buttons  -->
   <script src='./review-buttons/init.js'></script>
+
+  <script src="./scripts/convert-to-fahrenheit.js"></script>
+  <script src="./scripts/find-longest-word-length.js"></script>
+
 
   <script src='./scripts/reverse-a-string.js'></script>
 
   <script src='./scripts/repeat-string-num-times.js'></script>
 
   <link rel="stylesheet" href="style.css">
+
 </head>
+<body>
+
+
+<!--part 3 and 4-->
+<div id="section">
+  
+  <!--convert to fahrenheit-->
+  <div id="part1">
+    <h2> Get your Fahrenheit degree</h2>
+    <input type="text" id="input"><br>
+    <button id="button" onclick=' convertToFahrenheitHandler() '>Get fahrenheit</button>
+    <div id="finalResult"></div>
+  </div>
+  
+  <!--find longest world length-->
+  <div id= part2>
+    <h2> Get longest word length</h2>
+    <input type="text" id="input1"><br>
+    <button id="button1" onclick= ' findLongestWordLengthHandler()'>Get length</button>
+    <div id="finalResult1"></div>
+  </div>
 
 <body>
 
@@ -40,4 +67,10 @@
 
 </body>
 
+
+</div>
+
+
+
+</body>
 </html>

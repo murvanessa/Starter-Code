@@ -3,8 +3,10 @@
 console.log('-- loading: convertToFahrenheit');
 
 
-function convertToFahrenheit() { }
+function convertToFahrenheit(input){
 
+  return (input * 9/5) + 32;
+  }
 
 {
   console.log('-- testing: convertToFahrenheit ');
@@ -13,17 +15,17 @@ function convertToFahrenheit() { }
   const _1_arg = -30;
   const _1_expect = -22;
   const _1_actual = convertToFahrenheit(_1_arg);
-  console.assert(_1_actual === _1_expect, 'Test 1');
+  console.assert(_1_actual ===  _1_expect, 'Test 1');
 
   const _2_arg = -10;
   const _2_expect = 14;
   const _2_actual = convertToFahrenheit(_2_arg);
-  console.assert(_2_actual === _2_expect, 'Test 2');
+  console.assert(_2_actual ===  _2_expect, 'Test 2');
 
   const _3_arg = 0;
   const _3_expect = 32;
   const _3_actual = convertToFahrenheit(_3_arg);
-  console.assert(_3_actual === _3_expect, 'Test 3');
+  console.assert(_3_actual ===  _3_expect, 'Test 3');
 
   const _4_arg = 20;
   const _4_expect = 68;
@@ -38,19 +40,25 @@ function convertToFahrenheit() { }
   const _6_arg = -40;
   const _6_expect = -40;
   const _6_actual = convertToFahrenheit(_6_arg);
-  console.assert(_6_actual === _6_expect, 'Test 6');
+  console.assert(_6_actual ===  _6_expect, 'Test 6');
 }
 
 
 function convertToFahrenheitHandler() {
   debugger;
-
+  
   // read user input
-
-  // core logic
-  const result = convertToFahrenheit(c);
+  const input = document.getElementById('input').value;
+  const finalResult = document.getElementById('finalResult');
+  
+   //core logic
+  const convertToFahrenheit = (input * 9/5) + 32;
+  let result = convertToFahrenheit;
 
   // display for use
+  finalResult.innerText = result;
 
-  // log for developers
+ // log for developers
+  console.log(result );
+  
 }
