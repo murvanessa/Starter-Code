@@ -1,41 +1,26 @@
 
-#section{
+#last{
     display: flex;
-    margin: 20% 20%;
-    
+    margin: -20% 20%;
 }
-
-/* part-1*/
-#part1{
-     width: 300px;
-    height: 300px;
-    background-color: black;
-     margin: 10px;
-    padding: 10px;
-    box-shadow: 10px 10px 10px gray;
-   
-}
- h2{ color: yellowgreen;
-          font-size: 20px;}
-#finalResult{
-    height: 50px;
-    width: 100px;
-    margin: 10px;
-    padding: 10px;
-    background-color: white;
-    text-align: center;
-
 .repeatstring{
-    display: flex;
-    margin: 10% 20%;
+     width: 300px;
+height: 300px;
+background-color: black;
+ margin: 10px;
+padding: 10px;
+box-shadow: 10px 10px 10px gray;
 }
+#button5{
+
+    margin: 10px;
+    background-color: yellowgreen;
+ }
+ 
 
 /* part-6*/
 #part6{
-
-/* part-5*/
-
-    width: 300px;
+  width: 300px;
    height: 300px;
    background-color: black;
     margin: 10px;
@@ -67,7 +52,24 @@ text-align: center;
     margin: 10px;
     background-color: yellowgreen;
 }
+#section{
+    display: flex;
+    margin: 20% 20%;
+    
+}
 
+/* part-1*/
+#part1{
+     width: 300px;
+    height: 300px;
+    background-color: black;
+     margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px gray;
+   
+}
+ h2{ color: yellowgreen;
+          font-size: 20px;}
 
 /* part-2*/
 #part2{ width: 300px;
@@ -93,13 +95,11 @@ text-align: center;
 #button1{ margin: 10px;
          background-color: yellowgreen;
     }
-
-
-#button{
-
-#button5{
-
-   margin: 10px;
-   background-color: yellowgreen;
-}
-
+#finalResult{
+        height: 50px;
+        width: 100px;
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+        text-align: center;
+    }
