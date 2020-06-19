@@ -123,6 +123,7 @@ the wireframe for this project []().
 ### HTML
 
 - Add the script inside the html page
+- link function in the button
 
 ### CSS
 
