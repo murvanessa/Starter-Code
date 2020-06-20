@@ -11,13 +11,33 @@
   <script src="./scripts/find-longest-word-length.js"></script>
   <script src='./scripts/reverse-a-string.js'></script>
   <script src='./scripts/repeat-string-num-times.js'></script>
+  <script src="./scripts/convert-to-celsius.js"></script>
+  <script src="./scripts/confirm-ending.js"></script>
 
 </head>
 <body>
+  <div id="section">
+
+    <!--confirmEndingHandler-->
+<div id="first">
+  <h2> ConfirmEnding</h2>
+  <input type="text" id="in1"><br>
+  <input type="text" id="in2"><br>
+  <button id="button1" onclick='confirmEndingHandler()'>Check</button>
+  <div id="finalResult1"></div>
+</div>
+
+<!--convert to celsius-->
+<div id="second">
+  <h2> Get your Celsius degree</h2>
+  <input type="text" id="input3"><br>
+  <button id="button3" onclick='convertToCelsiusHandler()'>Get Celsius</button>
+  <div id="finalResult3"></div>
+</div>
 
 
-<!--part 3 and 4-->
-<div id="section">
+
+
   
   <!--convert to fahrenheit-->
   <div id="part1">
@@ -30,13 +50,13 @@
   <!--find longest world length-->
   <div id= part2>
     <h2> Get longest word length</h2>
-    <input type="text" id="input1"><br>
-    <button id="button1" onclick= ' findLongestWordLengthHandler()'>Get length</button>
-    <div id="finalResult1"></div>
-  </div>
+    <input type="text" id="input2"><br>
+    <button id="button2" onclick= ' findLongestWordLengthHandler()'>Get length</button>
+    <div id="finalResult2"></div>
+ 
 
 </div>
-<div id="last">
+
   <div class=".repeatandreversestring">
     <div id='part6'>
       <h2> String to be reverse</h2>
@@ -57,10 +77,10 @@
       <button id="button5" onclick=' repeatStringNumTimesHandler()  '>String to be repeat...</button>
       <div id="resultstring"></div>
     </div>
-  </div>
+ 
 </div>  
 
-  
+</div> 
   
  
  

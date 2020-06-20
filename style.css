@@ -1,35 +1,25 @@
 
-#last{
-    display: flex;
-    margin: -20% 20%;
-}
 .repeatstring{
      width: 300px;
-height: 300px;
-background-color: black;
- margin: 10px;
-padding: 10px;
-box-shadow: 10px 10px 10px gray;
+     height: 300px;
+     background-color: black;
+     margin: 10px;
+     padding: 10px;
+     box-shadow: 10px 10px 10px gray;
 }
 #button5{
-
-    margin: 10px;
+     margin: 10px;
     background-color: yellowgreen;
  }
- 
-
-/* part-6*/
-#part6{
-  width: 300px;
-   height: 300px;
-   background-color: black;
-    margin: 10px;
-   padding: 10px;
-   box-shadow: 10px 10px 10px gray;
-  
-}
-h2{ 
-    color: yellowgreen;
+ #part6{
+       width: 300px;
+       height: 300px;
+       background-color: black;
+       margin: 10px;
+       padding: 10px;
+       box-shadow: 10px 10px 10px gray;
+  }
+h2{ color: yellowgreen;
     font-size: 20px;
 }
 #resultstring{
@@ -39,7 +29,6 @@ h2{
    padding: 10px;
    background-color: white;
    text-align: center;
-
 }
 #input{
 margin: 10px; 
@@ -47,59 +36,53 @@ height: 50px;
 font-size: 15px;
 text-align: center;
 }
-
 #button{
     margin: 10px;
     background-color: yellowgreen;
 }
+
+/* Feruz*/
 #section{
+    max-width: 850px;
+    margin: auto;
     display: flex;
     margin: 20% 20%;
-    
+    flex-wrap: wrap;
 }
 
-/* part-1*/
-#part1{
+#part1, #part2, #first, #second{
      width: 300px;
     height: 300px;
     background-color: black;
      margin: 10px;
     padding: 10px;
     box-shadow: 10px 10px 10px gray;
-   
 }
- h2{ color: yellowgreen;
+h2{ color: yellowgreen;
           font-size: 20px;}
-
-/* part-2*/
-#part2{ width: 300px;
-       height: 300px;
-       background-color: black;
-       margin: 10px;
-      padding: 10px;
-      box-shadow: 10px 10px 10px gray;}
-#finalResult1{
+#finalResult, #finalResult1, #finalResult2, #finalResult3{
     height: 50px;
-    width: 100px;
+    width: 200px;
     margin: 10px;
     padding: 10px;
     background-color: white;
     text-align: center;
 }
-#input1{
+#input, #input1, #input2, #input3{
     margin: 10px; 
     height: 50px;
     font-size: 15px;
     text-align: center;
+    width: 200px;
     }
-#button1{ margin: 10px;
+#in1, #in2{
+    margin: 10px; 
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    }
+
+#button, #button1, #button2, #button3 { margin: 10px;
          background-color: yellowgreen;
-    }
-#finalResult{
-        height: 50px;
-        width: 100px;
-        margin: 10px;
-        padding: 10px;
-        background-color: white;
-        text-align: center;
     }
