@@ -3,8 +3,9 @@
 console.log('-- loading: confirmEnding');
 
 
-function confirmEnding(in1, in2) { }
-return in1.endsWith(in2);
+function confirmEnding(argument1, argument2) { }
+let finalResult1 = argument1.endsWith(argument2);
+
 
 {
   console.log('-- testing: confirmEnding ');
@@ -65,13 +66,13 @@ function confirmEndingHandler() {
   debugger;
 
   // read user input
-  const in1 = document.getElementById('in1').value;
-  const in2 = document.getElementById('in2').value;
+  const argument1 = document.getElementById('argument1').value;
+  const argument2 = document.getElementById('argument2').value;
   const finalResult1 = document.getElementById('finalResult1');
 
   // core logic
   
-if(in1.endsWith(in2)){
+if(argument1.endsWith(argument2)){
   // display for use
   finalResult1.innerHTML = "You are Correct";
 }else{
