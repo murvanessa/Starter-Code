@@ -20,7 +20,7 @@ the wireframe for this project []().
 
 ## 1. User story: confirm-ending
 
-> assigned to Boam
+> assigned to Feruz
 
 **As a site visitor**
 
@@ -43,7 +43,7 @@ the wireframe for this project []().
 - Complete the exercise and see if it is correct by using js tutor
 
 ## 2. User story: convert-to-celsius
-> assigned to Boam
+> assigned to Feruz
 
 **As a site visitor**
 
