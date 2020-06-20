@@ -3,7 +3,9 @@
 console.log('-- loading: convertToCelsius');
 
 
-function convertToCelsius() { }
+function convertToCelsius(input3) { 
+  return (input3 - 32)*5/9;
+}
 
 
 {
@@ -46,11 +48,14 @@ function convertToCelsiusHandler() {
   debugger;
 
   // read user input
-
-  // core logic
-  const result = convertToCelsius(f);
-
-  // display for use
-
-  // log for developers
+const input3 = document.getElementById('input3').value;
+const finalResult3 = document.getElementById('finalResult3');
+  
+ //core logic
+const convertToFahrenheit = (input3 - 32)*5/9;
+let result3 = convertToFahrenheit;
+// display for use
+finalResult3.innerText = result3;
+// log for developers
+console.log(result3 );
 }
