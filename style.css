@@ -1,33 +1,33 @@
 /* Feruz*/
-/*#section{
+#section{
     max-width: 850px;
     margin: auto;
     display: flex;
-    margin: 20% 20%;
+    margin: 10% 20%;
     flex-wrap: wrap;
 }
 
 #part1, #part2, #first, #second, #part5, #part6{
-     width: 300px;
+    width: 300px;
     height: 300px;
     background-color: black;
-     margin: 10px;
-    padding: 10px;
+    margin: 8px;
+    padding: 8px;
     box-shadow: 10px 10px 10px gray;
 }
 h2{ color: yellowgreen;
           font-size: 20px;}
 #finalResult, #finalResult1, #finalResult2, #finalResult3, #resultstring1, #resultstring2{
-    height: 50px;
+    height: 30px;
     width: 200px;
-    margin: 10px;
+    margin: 8px;
     padding: 10px;
     background-color: white;
     text-align: center;
 }
 #input, #input1, #input2, #input3, #inputstring1, #inputstring2{
-    margin: 10px; 
-    height: 50px;
+    margin: 8px; 
+    height: 30px;
     font-size: 15px;
     text-align: center;
     width: 200px;
@@ -40,7 +40,7 @@ h2{ color: yellowgreen;
     width: 200px;
     }
 
-#button, #button1, #button2, #button3 , #button5, #button6{ margin: 10px;
-         background-color: yellowgreen;
-    }
-*/
+#button, #button1, #button2, #button3, #button6, #button5{ 
+    margin: 10px;
+    background-color: yellowgreen;
+}

@@ -54,8 +54,8 @@ function reverseStringHandler() {
   debugger;
 
   // read user input
-  const str = document.getElementById('inputstring').value;
-  const reversestring = document.getElementById('resultstring');
+  const str = document.getElementById('inputstring2').value;
+  const reversestring = document.getElementById('resultstring2');
   if(typeof str !== 'string'){throw new TypeError("Error: "+ type+"expected, "+"typeof str+ given."); }
 
   // core logic
@@ -63,7 +63,7 @@ function reverseStringHandler() {
   let resultat = reverse;
 
   // display for use
-  resultstring.innerText = resultat;
+  resultstring2.innerText = resultat;
 
   
 

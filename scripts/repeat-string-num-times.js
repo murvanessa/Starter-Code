@@ -67,7 +67,7 @@ function repeatStringNumTimesHandler() {
   debugger;
 
   // read user input
-  const str = document.getElementById('inputstring').value;
+  const str = document.getElementById('inputstring1').value;
   
   const num = document.getElementById('numberoftime').value;
   const repeatstring = document.getElementById('resultstring1');
@@ -78,7 +78,7 @@ function repeatStringNumTimesHandler() {
   let resultat = repeatString ;
 
   // display for use
-  resultstring.innerText = resultat;
+  resultstring1.innerText = resultat;
 
   
 
