@@ -70,7 +70,7 @@ function repeatStringNumTimesHandler() {
   const str = document.getElementById('inputstring').value;
   
   const num = document.getElementById('numberoftime').value;
-  const repeatstring = document.getElementById('resultstring');
+  const repeatstring = document.getElementById('resultstring1');
   if(typeof str !== 'string'){throw new TypeError("Error: "+ type+"expected, "+"typeof str+ given."); }
 
   // core logic
